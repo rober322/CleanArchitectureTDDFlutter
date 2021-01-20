@@ -16,6 +16,8 @@ dependencies:
 
   # Service lacator
   get_it: ^2.0.1
+  # Bloc for state management
+  flutter_bloc: ^0.21.0
   # Cupertino Icons
   cupertino_icons: ^0.1.3
 
