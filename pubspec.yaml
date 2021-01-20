@@ -22,7 +22,9 @@ dependencies:
   flutter_bloc: ^0.21.0
   # Value equality
   equatable: ^0.4.0
-
+  # Functional programming thingies
+  dartz: ^0.8.6
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
