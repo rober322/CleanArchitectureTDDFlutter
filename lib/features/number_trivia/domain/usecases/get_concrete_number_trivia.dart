@@ -1,6 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:dartz/dartz.dart';
 import 'package:meta/meta.dart';
+
 import '../../../../core/usecases/usecase.dart';
 import '../../../../core/error/failure.dart';
 import '../entities/number_trivia.dart';

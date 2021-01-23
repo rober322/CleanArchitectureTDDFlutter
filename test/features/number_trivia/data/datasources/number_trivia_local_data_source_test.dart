@@ -4,10 +4,10 @@ import 'package:mockito/mockito.dart';
 import 'package:matcher/matcher.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:clean_architecture_add_course/core/error/exception.dart';
-import 'package:clean_architecture_add_course/features/number_trivia/data/datasources/number_trivia_local_data_source.dart';
-import 'package:clean_architecture_add_course/features/number_trivia/data/models/number_trivia_model.dart';
 import '../../../../fixtures/fixture_reader.dart';
+import '../../../../../lib/core/error/exception.dart';
+import '../../../../../lib/features/number_trivia/data/datasources/number_trivia_local_data_source.dart';
+import '../../../../../lib/features/number_trivia/data/models/number_trivia_model.dart';
 
 class MockSharedPreferences extends Mock implements SharedPreferences {}
 

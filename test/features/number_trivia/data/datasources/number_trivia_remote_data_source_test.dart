@@ -5,9 +5,9 @@ import 'package:mockito/mockito.dart';
 import 'package:matcher/matcher.dart';
 
 import '../../../../fixtures/fixture_reader.dart';
-import 'package:clean_architecture_add_course/core/error/exception.dart';
-import 'package:clean_architecture_add_course/features/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
-import 'package:clean_architecture_add_course/features/number_trivia/data/models/number_trivia_model.dart';
+import '../../../../../lib/core/error/exception.dart';
+import '../../../../../lib/features/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
+import '../../../../../lib/features/number_trivia/data/models/number_trivia_model.dart';
 
 class MockHttpClient extends Mock implements http.Client {}
 
